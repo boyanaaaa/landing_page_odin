@@ -1,0 +1,129 @@
+
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.header{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    gap: 53%;
+    width: 100%;
+    height: 2rem;
+    background-color: #1F2937;
+    overflow: hidden;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;    
+}
+
+.link{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.headerLogo{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.firstContent{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding:4rem 0;
+    width: 100%;
+    background-color: #1F2937;
+ 
+
+}
+.firstContent > *{
+    width: 20rem;
+    height: 9rem;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.leftSide > *{
+    margin: 0;
+}
+
+.maintext{
+    font-size: 28px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.leftContext{
+    font-size: 12px;
+    color: #F9FAF8;
+}
+
+.signUp-btn{
+    width: 100px;
+    font-size: 12px;
+    margin-top: 8px;
+    padding: 3px 0px;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 3px;
+    color: #F9FAF8; 
+}
+
+.rightSide{
+    background-color: rgb(193, 189, 189);
+    color: #F9FAF8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Second block */
+.secondContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+.second-blocks{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+
+
+}
+.second-block{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-img{
+    width: 8rem;
+    height: 8rem;
+    border:1px solid black;
+    border-radius: 10%;
+}
+
+.second-text{
+    text-align: center;
+}
