@@ -168,3 +168,42 @@
     margin-bottom: 50px;
     
 }
+
+
+
+
+/* Fourth block */
+
+.fourthContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+}
+
+.four-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20px;
+    width: 50rem;
+    height: 7rem;
+
+}
+.four-leftSide > *{
+    margin: 0;
+    color:#F9FAF8;
+    font-size: 18px;
+}
+
+
+.btn-signUp{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color:#F9FAF8;
+    font-size: 15px;
+}
